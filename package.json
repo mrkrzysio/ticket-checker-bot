@@ -1,0 +1,16 @@
+{
+  "name": "ticket-checker-bot",
+  "version": "1.0.0",
+  "description": "Bot sprawdzający dostępność biletów na Eventim i Mticket",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "axios": "^1.6.7",
+    "express": "^4.19.2",
+    "puppeteer": "^21.3.8",
+    "retry": "^0.13.1"
+  }
+}
